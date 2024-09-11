@@ -1,0 +1,33 @@
+***website idea
+https://thomasdigital.com/industry/interior-design-websites
+
+************HORIZON STUDIO*******************
+
+1.Ce projet est un site web de design d'intérieur qui inclut une navigation avec un Drawer (menu latéral) 
+et plusieurs sections de présentation de l'agence.
+
+Il utilise React pour la structure des composants, Material-UI pour les composants d'interface utilisateur comme les boutons et les listes, 
+et inclut des images d'intérieur pour illustrer l'apparence de l'agence.
+
+
+Technologies principales :
+React : Bibliothèque JavaScript pour créer des interfaces utilisateur dynamiques.
+Material-UI : Librairie de composants React qui suit les principes de Material Design.
+CSS : Pour la mise en page et les styles, en particulier pour une approche mobile-first.
+React Router : Gestion de la navigation interne à l'application.
+
+
+2. Structure des fichiers
+
+src/: Contient tous les fichiers source du projet.
+
+    pages/:Les pages du projet.
+       Home.js: Composant principal qui contient les différentes sections de la page d'accueil.
+
+    components/:Les composants React du projet.
+        Navbar.js: Composant de la barre de navigation avec un Drawer.
+
+    assets/: Contient les ressources telles que les images utilisées dans le projet.
+
+App.js: Point d'entrée de l'application, qui inclut la navigation.
+App.css: Fichier CSS principal contenant les styles de base du projet.
