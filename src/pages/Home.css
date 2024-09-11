@@ -1,0 +1,45 @@
+/* home mobile first */
+.home {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.home .section-1 {
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+}
+
+.section-1 > p {
+  width: 90%;
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.section-2 {
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+.section-2 > h2 {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section-2 > ul {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
