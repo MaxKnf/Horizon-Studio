@@ -40,15 +40,15 @@ export default function TemporaryDrawer() {
     },
     {
       name: "Process",
-      link: "/",
+      link: "/process",
     },
     {
       name: "Portfolio",
-      link: "/",
+      link: "/portfolio",
     },
     {
       name: "Contact",
-      link: "/",
+      link: "/contacts",
     },
   ];
 
@@ -75,7 +75,7 @@ export default function TemporaryDrawer() {
                 display: "flex",
                 flexDirection: "column",
                 padding: "1.5rem 0 1.5rem 0",
-                color: "#378925",
+                color: "#FFFFFF",
                 fontSize: "1.5rem",
                 "&:hover": {
                   textDecoration: "underline", // Souligne le lien au survol
@@ -100,17 +100,17 @@ export default function TemporaryDrawer() {
 
       {/* Lien vers la page d'accueil avec le nom du studio */}
       <Link to="/" className="title">
-        Horizon Studio
+        <div>Horizon Studio</div>
       </Link>
 
-      {/* Drawer (tiroir) qui s'ouvre à gauche avec les options de navigation */}
+      {/* Drawer qui s'ouvre à gauche avec les options de navigation */}
       <Drawer
         anchor="left"
         open={open} // Contrôle si le Drawer est ouvert ou fermé
         onClose={toggleDrawer(false)} // Ferme le Drawer lorsqu'on clique en dehors ou sur un lien
         PaperProps={{
           sx: {
-            backgroundColor: "#FFFFFF", // Couleur de fond blanche
+            backgroundColor: "#5e7b58", // Couleur de fond blanche
             justifyContent: "center", // Centrage vertical du contenu
           },
         }}

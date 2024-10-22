@@ -25,7 +25,7 @@
 } */
 
 .title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
@@ -33,4 +33,24 @@
 
 .drawer {
   z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .title {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .drawer {
+    width: 400px !important;
+  }
+  .title {
+    width: 94%;
+  }
+  a {
+    font-size: 2rem !important;
+  }
 }

@@ -1,0 +1,41 @@
+.slider-container {
+  width: 100%;
+}
+
+.member {
+  width: 100% !important;
+  margin: 0;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.member img {
+  width: 90%;
+}
+.member p {
+  width: 90%;
+  text-align: center;
+}
+.slick-dots {
+  background-color: #5e7b58;
+}
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  font-size: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .member {
+    margin-bottom: 2rem;
+  }
+  .slick-dots {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  .slick-dots li {
+    margin: 0 1rem;
+  }
+}
